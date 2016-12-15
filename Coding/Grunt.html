@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>07alexander.io Project Zero</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <style>
+        body {
+            padding-top: 50px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">07alexander.io</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="../GettingStarted.html">Getting Started</a>
+                </li>
+                <li>
+                    <a href="../Coding.html">Coding</a>
+                </li>
+                <li>
+                    <a href="../Design.html">Design</a>
+                </li>
+                <li>
+                    <a href="../TheIndustry.html">The Industry</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-12 text-left">
+            <img class ="img" src="../img/grunt.png">
+            <h1>Coding</h1>
+            <h4>Web Workflows with Grunt.js</h4>
+            <a href="FrontEnd.html">Front End Frameworks</a> /
+            <a href="Grunt.html">Web Workflows with Grunt.js</a> /
+            <a href="SemanticVersioning.html">Semantic Versioning</a> /
+            <a href="Sublime.html">Up and Running with Sublime Text</a> /
+            <a href="UTF8.html">UTF8</a><br>
+
+            <p>
+                Grunt.js
+                <ul>
+                <li>Introduction
+            <li>How to generate a workflow that will make it easier to build your websites</li>
+            <li>Using frameworks like bootstrap, JQuery, and mustache.js</li>
+            <li>Need to know how to work with terminal and NPM</li>
+            <li>Creating Tasks with Grunt</li>
+            <li>This course doesn’t focus on code, it’s about how to create an efficient workflow</li>
+            <li>The gruntfile.js combines all the scripts together into a single document and then it adds these separators</li>
+            <li>The bower.json has our dependencies for our project and so these two lines of code right here tell bower, which we’re also using in this project, to actually go and download any of the libraries that we want</li>
+            <li>You don’t have to worry about where to put everything, it’s all taken care of with the workflow</li>
+            <li>In terminal use npm init command to get started</li>
+            <li>After setup use npm install and grunt cli</li>
+            <li>Now we’re allowed to run grunt commands in the terminal</li>
+            <li>Create a grunt file</li>
+            <li>We have built our first task and what it did is take all of our scripts and combined them into this script.js</li>
+            <li>Once you do a default grunt configuration, all you have to do is create a little js configuration object and you're good to go</li>
+            <li>Now we have to add tasks options and defaults</li>
+            <li>Go to gruntjs.com and click on the plugin sections to look for plugins</li>
+            <li>All we have to do is just run the grunt command and specify what task to run</li>
+            <li>Now we have to process Sass files</li>
+            <li>Sass is the new standard for css</li>
+            <li>If you go to the plugin sections in gruntjs.com look plugins for Sass</li>
+            <li>Go to terminal and install npm sass</li>
+            <li>Then install grunt sass plugin</li>
+            <li>You are going to notice that grunt contrib sass is a little bit slower</li>
+            <li>Now we have to automate our workflow</li>
+            <li>We have to grab the grunt contrib watch plugin</li>
+            <li>This plugin will allow us to look over our workflow and automate it</li>
+            <li>So with this plugin, it’s doing the processing for us as soon as we change any of our documents, whether it’s the sass documents, html document, or any of the scripts</li>
+            <li>If we make any changes it’s going to process our tasks and whenever we refresh our page, we can see any of the changes</li>
+            <li>Now we don't have to keep on running the grunt command in our terminal every time we update our project</li>
+            <li>Now that grunt is running our tasks automatically whenever our page changes, we still have to hit the reload button ourselves to make a change to our page</li>
+            <li>So we go use a livereload option to keep reloading the page</li>
+            <li>If you go into your terminal, every time you make a change you should see the terminal updating you on what has happened, It notices that there has been a change here on this _modules file, and then it runs all of the different scripts and automatically updates your browser.</li>
+            </ul>
+            </p>
+
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<p>Copyright © Alexander Phosykeo 2016</p>
+
+<!-- jQuery Version 1.11.1 -->
+<script src="../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
